@@ -1,13 +1,38 @@
-> Why do I have a folder named ".expo" in my project?
+# 🍽️ React Native Christoffel Food Menu App (TypeScript)
 
-The ".expo" folder is created when an Expo project is started using "expo start" command.
+This project is a simple **React Native mobile application** built with **TypeScript** and **Expo**.  
+The app allows users to **view**, **add**, **and delete** dishes from a menu, as well as view a **summary** of the total dishes and total cost.
 
-> What do the files contain?
+---
 
-- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
-- "settings.json": contains the server configuration that is used to serve the application manifest.
+## 📱 App Overview
 
-> Should I commit the ".expo" folder?
+The project was created to demonstrate the use of **React Native core components** and **navigation** while applying clean coding practices with **TypeScript**.
 
-No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
-Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
+**Main Features:**
+- View a list of dishes (with names, descriptions, and prices)
+- Add a new dish using a form
+- Delete a dish with a confirmation modal
+- Display total number of dishes and combined cost
+- Smooth navigation between multiple screens
+
+---
+
+## 🧩 Technologies Used
+
+- **React Native** – for building the mobile interface  
+- **TypeScript** – for type safety and cleaner code  
+- **Expo** – for easy development and testing  
+- **React Navigation** – for navigation between screens  
+- **React Native Core Components:**  
+  - `Text`, `View`, `FlatList`, `Image`, `TextInput`, `Modal`, `Button`, `Alert`, `StyleSheet`
+
+---
+
+## ⚙️ Installation and Setup
+
+Follow these steps to run the project locally:
+
+### 1. Install Expo CLI (if not already installed)
+```bash
+npm install -g expo-cli
